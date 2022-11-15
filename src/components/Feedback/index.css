@@ -1,0 +1,47 @@
+/* Write your CSS code here. */
+.bg-container {
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 50%;
+  padding: 30px;
+  color: #0f172a;
+}
+.emoji {
+  width: 40px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0%;
+}
+.emoji-btn {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.love-emoji {
+  width: 40px;
+}
+
+.list-item {
+  list-style: none;
+  padding: 0%;
+}
+.greet {
+  color: #0f172a;
+}
+.desc {
+  color: #1e293b;
+}
